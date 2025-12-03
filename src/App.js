@@ -17,9 +17,10 @@ function App() {
     <div className="App">
       <Navbar user={user} activeTab={activeTab} setActiveTab={setActiveTab} />
 
-      {activeTab === "home" && <Hero setActiveTab={setActiveTab} />}
+      {/* {activeTab === "home" && <Hero setActiveTab={setActiveTab} />}
       {activeTab === "dashboard" && <Dashboard user={user} />}
-      {activeTab === "courses" && <CourseList />}
+      {activeTab === "courses" && <CourseList />} */}
+      <Hero setActiveTab={setActiveTab} />
 
       <Footer />
     </div>

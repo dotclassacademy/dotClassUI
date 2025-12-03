@@ -12,19 +12,13 @@ function Footer() {
           </p>
         </div>
         <div className="footer-section">
-          <h4>Quick Links</h4>
+          <h4>Connect US</h4>
           <ul>
             <li>
-              <a href="#home">Home</a>
+              <h5>+91 8590494511</h5>
             </li>
             <li>
-              <a href="#courses">Courses</a>
-            </li>
-            <li>
-              <a href="#about">About</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
+              <a href="#contact">dotclassacademy.org@gmail.com</a>
             </li>
           </ul>
         </div>

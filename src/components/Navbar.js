@@ -11,6 +11,7 @@ function Navbar({ user, activeTab, setActiveTab }) {
         <ul className="navbar-menu">
           <li>
             <button
+              style={{ display: "none" }}
               className={activeTab === "home" ? "active" : ""}
               onClick={() => setActiveTab("home")}
             >
@@ -19,6 +20,7 @@ function Navbar({ user, activeTab, setActiveTab }) {
           </li>
           <li>
             <button
+              style={{ display: "none" }}
               className={activeTab === "dashboard" ? "active" : ""}
               onClick={() => setActiveTab("dashboard")}
             >
@@ -27,13 +29,17 @@ function Navbar({ user, activeTab, setActiveTab }) {
           </li>
           <li>
             <button
+              style={{ display: "none" }}
               className={activeTab === "courses" ? "active" : ""}
               onClick={() => setActiveTab("courses")}
             >
               Courses
             </button>
           </li>
-          <li className="navbar-user">👤 {user.name}</li>
+          <li className="navbar-user">
+            👤
+            {/* {user.name} */}
+          </li>
         </ul>
       </div>
     </nav>
