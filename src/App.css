@@ -4,6 +4,35 @@
   flex-direction: column;
 }
 
+html,
+body,
+#root,
+.App {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
+  background: #f5f7fa;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 480px) {
+  html,
+  body,
+  #root,
+  .App {
+    font-size: 15px;
+  }
+}
+
 main {
   flex: 1;
   padding: 20px;

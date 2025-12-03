@@ -72,6 +72,80 @@
   .navbar-container {
     padding: 0.9rem 15px;
   }
+  .navbar-logo h1 {
+    font-size: 1.6rem;
+  }
+  .navbar-menu {
+    gap: 1.5rem;
+  }
+}
+
+/* Mobile Landscape */
+@media (max-width: 768px) {
+  .navbar-container {
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 0.8rem 15px;
+  }
+  .navbar-logo h1 {
+    font-size: 1.4rem;
+  }
+  .navbar-menu {
+    gap: 0.8rem;
+    width: 100%;
+    justify-content: center;
+  }
+  .navbar-menu button {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+  }
+  .navbar-user {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.8rem;
+  }
+}
+
+/* Mobile Portrait */
+@media (max-width: 480px) {
+  .navbar-container {
+    padding: 0.7rem 12px;
+    gap: 0.6rem;
+  }
+  .navbar-logo h1 {
+    font-size: 1.2rem;
+  }
+  .navbar-menu {
+    gap: 0.6rem;
+  }
+  .navbar-menu button {
+    font-size: 0.8rem;
+    padding: 0.35rem 0.6rem;
+  }
+  .navbar-user {
+    font-size: 0.75rem;
+    padding: 0.35rem 0.6rem;
+  }
+}
+
+/* Extra Small */
+@media (max-width: 360px) {
+  .navbar-logo h1 {
+    font-size: 1rem;
+  }
+  .navbar-menu {
+    gap: 0.4rem;
+  }
+  .navbar-menu button {
+    font-size: 0.7rem;
+    padding: 0.3rem 0.5rem;
+  }
+}
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .navbar-container {
+    padding: 0.9rem 15px;
+  }
 
   .navbar-logo h1 {
     font-size: 1.6rem;
