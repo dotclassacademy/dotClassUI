@@ -7,10 +7,16 @@ function Hero({ setActiveTab }) {
     <section style={{ backgroundColor: "white" }} className="hero">
       <div className="hero-content">
         <h2>Welcome to dotClass Academy</h2>
-        <p>Learn new skills and advance your career with expert-led courses</p>
-        <button className="cta-button" onClick={() => setActiveTab("courses")}>
+        <p style={{ color: "black" }}>
+          Learn new skills and advance your career with expert-led courses
+        </p>
+        {/* <button className="cta-button" onClick={() => setActiveTab("courses")}>
           Explore Courses
-        </button>
+        </button> */}
+        <p>
+          Improving student learning paths through personalized curricula,
+          progress tracking, and practical projects.
+        </p>
       </div>
       <div className="hero-image">
         {/* Option A: put an image in public/images/hero.jpg and use the path below */}

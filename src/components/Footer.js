@@ -29,8 +29,8 @@ function Footer() {
           <h4>Follow US</h4>
           <ul>
             {/* <li>
-              <h5>+91 8590494511</h5>
-            </li> */}
+                        <h5>+91 8590494511</h5>
+                    </li> */}
             <li>
               <a href="https://www.instagram.com/dotclass_academy?igsh=MW41emtqc3Y5cnQ5aQ==">
                 instagram

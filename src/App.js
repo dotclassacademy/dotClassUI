@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Dashboard from "./components/Dashboard";
 import CourseList from "./components/CourseList";
+import StudentSurvey from "./components/StudentSurvey";
 import Footer from "./components/Footer";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       {activeTab === "dashboard" && <Dashboard user={user} />}
       {activeTab === "courses" && <CourseList />} */}
       <Hero setActiveTab={setActiveTab} />
+      <StudentSurvey />
 
       <Footer />
     </div>
