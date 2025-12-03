@@ -15,10 +15,12 @@ function Footer() {
           <h4>Connect US</h4>
           <ul>
             <li>
-              <h5>+91 8590494511</h5>
+              <h5>+91 8590494517</h5>
             </li>
             <li>
-              <a href="#contact">dotclassacademy.org@gmail.com</a>
+              <a href="mailto:dotclassacademy.org@gmail.com">
+                dotclassacademy.org@gmail.com
+              </a>
             </li>
           </ul>
         </div>
@@ -31,7 +33,7 @@ function Footer() {
             </li> */}
             <li>
               <a href="https://www.instagram.com/dotclass_academy?igsh=MW41emtqc3Y5cnQ5aQ==">
-                instagaram
+                instagram
               </a>
             </li>
           </ul>
