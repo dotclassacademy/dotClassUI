@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/dotClassUI/static/css/main.632c337e.css",
-    "main.js": "/dotClassUI/static/js/main.b2c3477f.js",
+    "main.js": "/dotClassUI/static/js/main.f459a352.js",
     "static/media/image.png": "/dotClassUI/static/media/image.0828dd835a24ddbf53da.png",
     "index.html": "/dotClassUI/index.html",
     "main.632c337e.css.map": "/dotClassUI/static/css/main.632c337e.css.map",
-    "main.b2c3477f.js.map": "/dotClassUI/static/js/main.b2c3477f.js.map"
+    "main.f459a352.js.map": "/dotClassUI/static/js/main.f459a352.js.map"
   },
   "entrypoints": [
     "static/css/main.632c337e.css",
-    "static/js/main.b2c3477f.js"
+    "static/js/main.f459a352.js"
   ]
 }
