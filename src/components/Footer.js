@@ -14,9 +14,7 @@ function Footer() {
         <div className="footer-section">
           <h4>Connect US</h4>
           <ul>
-            <li>
-              <h5>+91 8590494517</h5>
-            </li>
+            <li></li>
             <li>
               <a href="mailto:dotclassacademy.org@gmail.com">
                 dotclassacademy.org@gmail.com
